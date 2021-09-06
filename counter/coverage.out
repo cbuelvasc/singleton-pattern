@@ -1,0 +1,8 @@
+mode: set
+github.com/cbuelvasc/singleton-pattern/counter/counter.go:11.28,12.21 1 1
+github.com/cbuelvasc/singleton-pattern/counter/counter.go:18.2,18.17 1 1
+github.com/cbuelvasc/singleton-pattern/counter/counter.go:12.21,15.3 2 1
+github.com/cbuelvasc/singleton-pattern/counter/counter.go:15.8,17.3 1 1
+github.com/cbuelvasc/singleton-pattern/counter/counter.go:21.32,24.2 2 1
+github.com/cbuelvasc/singleton-pattern/counter/counter.go:26.37,29.2 2 1
+github.com/cbuelvasc/singleton-pattern/counter/counter.go:31.34,33.2 1 1
