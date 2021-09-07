@@ -3,15 +3,15 @@ package main
 import (
 	"fmt"
 
-	singleton "github.com/cbuelvasc/singleton-pattern/counter"
+	"github.com/cbuelvasc/singleton-pattern/counter"
 )
 
 func main() {
-	counterOne := singleton.GetCounter()
+	counterOne := counter.GetCounter()
 	currentCount := counterOne.AddOne()
 	fmt.Println(currentCount)
 
-	counterTwo := singleton.GetCounter()
+	counterTwo := counter.GetCounter()
 	currentCount = counterTwo.AddOne()
 	fmt.Println(currentCount)
 }
