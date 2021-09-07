@@ -14,4 +14,8 @@ func main() {
 	counterTwo := counter.GetCounter()
 	currentCount = counterTwo.AddOne()
 	fmt.Println(currentCount)
+
+	counterThree := counter.GetCounter()
+	currentCount = counterThree.SubtractOne()
+	fmt.Println(currentCount)
 }
